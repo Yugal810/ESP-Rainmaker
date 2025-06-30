@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pyserial
+qrcode
+Pillow
+jinja2 

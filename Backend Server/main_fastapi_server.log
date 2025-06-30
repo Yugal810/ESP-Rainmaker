@@ -1,0 +1,416 @@
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [6024]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:49:42 IST)" (scheduled at 2025-06-30 16:49:42.673620+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:50:42 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:51:42 IST)" (scheduled at 2025-06-30 16:50:42.673620+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:51:42 IST)" executed successfully
+INFO:     127.0.0.1:63370 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63370 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63370 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63370 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:52:42 IST)" (scheduled at 2025-06-30 16:51:42.673620+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:52:42 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:53:42 IST)" (scheduled at 2025-06-30 16:52:42.673620+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:53:42 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:54:42 IST)" (scheduled at 2025-06-30 16:53:42.673620+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:54:42 IST)" executed successfully
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6024]
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [14748]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63485 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63485 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63486 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:55:26 IST)" (scheduled at 2025-06-30 16:55:26.860531+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:56:26 IST)" executed successfully
+INFO:     127.0.0.1:63611 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63611 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63615 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:57:26 IST)" (scheduled at 2025-06-30 16:56:26.860531+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:57:26 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:58:26 IST)" (scheduled at 2025-06-30 16:57:26.860531+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 16:58:26 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [12232]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [3128]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63763 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63763 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [13880]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63831 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63831 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:63832 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63832 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:01:30 IST)" (scheduled at 2025-06-30 17:01:30.127015+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:02:30 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:03:30 IST)" (scheduled at 2025-06-30 17:02:30.127015+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:03:30 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:04:30 IST)" (scheduled at 2025-06-30 17:03:30.127015+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:04:30 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [7408]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:63975 - "GET / HTTP/1.1" 404 Not Found
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:05:26 IST)" (scheduled at 2025-06-30 17:05:26.899159+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:06:26 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:07:26 IST)" (scheduled at 2025-06-30 17:06:26.899159+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:07:26 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:08:26 IST)" (scheduled at 2025-06-30 17:07:26.899159+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:08:26 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:09:26 IST)" (scheduled at 2025-06-30 17:08:26.899159+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:09:26 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [17836]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64159 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64159 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:09:36 IST)" (scheduled at 2025-06-30 17:09:36.285678+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:10:36 IST)" executed successfully
+INFO:     127.0.0.1:64206 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64206 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [8476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:11:32 IST)" (scheduled at 2025-06-30 17:11:32.104897+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:12:32 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:13:32 IST)" (scheduled at 2025-06-30 17:12:32.104897+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:13:32 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [15988]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [14260]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64393 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64393 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:15:08 IST)" (scheduled at 2025-06-30 17:15:08.156033+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:16:08 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:17:08 IST)" (scheduled at 2025-06-30 17:16:08.156033+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:17:08 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [12260]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64512 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64512 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:17:28 IST)" (scheduled at 2025-06-30 17:17:28.030941+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:18:28 IST)" executed successfully
+INFO:     127.0.0.1:64513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [7688]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:22:33 IST)" (scheduled at 2025-06-30 17:22:33.370681+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:23:33 IST)" executed successfully
+INFO:     127.0.0.1:64849 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64849 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64872 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:24:33 IST)" (scheduled INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:23:54 IST)" (scheduled at 2025-06-30 17:23:54.185414+05:30)
+INFOINFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:25:33 IST)" (scheduled at 2025-06-30 17:24:33.370681+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:25:33 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [15844]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64945 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64945 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:64946 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64946 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:26:19 IST)" (scheduled at 2025-06-30 17:26:19.501074+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:27:19 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:28:19 IST)" (scheduled at 2025-06-30 17:27:19.501074+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:28:19 IST)" executed successfully
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [3388]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:65069 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:65070 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65070 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:29:10 IST)" (scheduled at 2025-06-30 17:29:10.367814+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:30:10 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:31:10 IST)" (scheduled at 2025-06-30 17:30:10.367814+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:31:10 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:32:10 IST)" (scheduled at 2025-06-30 17:31:10.367814+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:32:10 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:33:10 IST)" (scheduled at 2025-06-30 17:32:10.367814+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 17:33:10 IST)" executed successfully
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3388]
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [12852]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49244 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49244 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12852]
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [8252]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49288 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49288 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:02:37 IST)" (scheduled at 2025-06-30 18:02:37.474464+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:03:37 IST)" executed successfully
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8252]
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [13088]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:09:16 IST)" (scheduled at 2025-06-30 18:09:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:10:16 IST)" executed successfully
+INFO:     127.0.0.1:49396 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49396 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49396 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49396 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:11:16 IST)" (scheduled at 2025-06-30 18:10:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:11:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:12:16 IST)" (scheduled at 2025-06-30 18:11:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:12:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:13:16 IST)" (scheduled at 2025-06-30 18:12:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:13:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:14:16 IST)" (scheduled at 2025-06-30 18:13:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:14:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:15:16 IST)" (scheduled at 2025-06-30 18:14:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:15:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:16:16 IST)" (scheduled at 2025-06-30 18:15:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:16:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:17:16 IST)" (scheduled at 2025-06-30 18:16:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:17:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:18:16 IST)" (scheduled at 2025-06-30 18:17:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:18:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:19:16 IST)" (scheduled at 2025-06-30 18:18:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:19:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:20:16 IST)" (scheduled at 2025-06-30 18:19:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:20:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:21:16 IST)" (scheduled at 2025-06-30 18:20:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:21:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:22:16 IST)" (scheduled at 2025-06-30 18:21:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:22:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:23:16 IST)" (scheduled at 2025-06-30 18:22:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:23:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:24:16 IST)" (scheduled at 2025-06-30 18:23:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:24:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:25:16 IST)" (scheduled at 2025-06-30 18:24:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:25:16 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:26:16 IST)" (scheduled at 2025-06-30 18:25:16.307840+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:26:16 IST)" executed successfully
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13088]
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [11568]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:49646 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49646 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:43:55 IST)" (scheduled at 2025-06-30 18:43:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:44:55 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:45:55 IST)" (scheduled at 2025-06-30 18:44:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:45:55 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:46:55 IST)" (scheduled at 2025-06-30 18:45:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:46:55 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:47:55 IST)" (scheduled at 2025-06-30 18:46:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:47:55 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:48:55 IST)" (scheduled at 2025-06-30 18:47:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:48:55 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:49:55 IST)" (scheduled at 2025-06-30 18:48:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:49:55 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:50:55 IST)" (scheduled at 2025-06-30 18:49:55.130555+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:50:55 IST)" executed successfully
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11568]
+INFO:mqtt_client:Attempting to connect to MQTT Broker at broker.hivemq.com:1883
+INFO:mqtt_client:Connected to MQTT Broker successfully
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "check_and_execute_schedules" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Started server process [9136]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:9000 (Press CTRL+C to quit)
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:53:00 IST)" (scheduled at 2025-06-30 18:53:00.083827+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:54:00 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:55:00 IST)" (scheduled at 2025-06-30 18:54:00.083827+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:55:00 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:56:00 IST)" (scheduled at 2025-06-30 18:55:00.083827+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:56:00 IST)" executed successfully
+INFO:apscheduler.executors.default:Running job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:57:00 IST)" (scheduled at 2025-06-30 18:56:00.083827+05:30)
+INFO:apscheduler.executors.default:Job "check_and_execute_schedules (trigger: interval[0:01:00], next run at: 2025-06-30 18:57:00 IST)" executed successfully
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [9136]

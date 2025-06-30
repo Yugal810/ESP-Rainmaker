@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESP Flashing Tool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body { background: #f8f9fa; }
+        .container { max-width: 500px; margin-top: 40px; }
+        #result img { max-width: 200px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+<div class="container shadow rounded bg-white p-4">
+    <h2 class="mb-4 text-center">ESP Flashing Tool</h2>
+    <form id="flashForm">
+        <div class="mb-3">
+            <label for="chipType" class="form-label">Select Chip Type</label>
+            <select id="chipType" name="chip_type" class="form-select" required>
+                <option value="esp32">ESP32</option>
+                <option value="esp32c2">ESP32C2</option>
+                <option value="esp32c3">ESP32C3</option>
+                <option value="esp32c6">ESP32C6</option>
+                <option value="esp32h2">ESP32H2</option>
+                <option value="esp32s3">ESP32S3</option>
+                <option value="esp8266">ESP8266</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="comPort" class="form-label">Select COM Port</label>
+            <div class="input-group">
+                <select id="comPort" name="com_port" class="form-select" required></select>
+                <button type="button" class="btn btn-outline-secondary" id="refreshComPorts" title="Refresh COM Ports">&#x21bb;</button>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="firmwareFile" class="form-label">Select Firmware</label>
+            <select id="firmwareFile" name="firmware_filename" class="form-select" required></select>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Flash Firmware</button>
+    </form>
+    <div id="flashStatus" class="mt-4 text-center"></div>
+</div>
+<script>
+    async function loadComPorts() {
+        const res = await fetch('/com_ports');
+        const data = await res.json();
+        const select = document.getElementById('comPort');
+        select.innerHTML = data.ports.map(port => `<option value="${port}">${port}</option>`).join('');
+    }
+    async function loadFirmwareList() {
+        const res = await fetch('/firmware_list');
+        const data = await res.json();
+        const select = document.getElementById('firmwareFile');
+        select.innerHTML = data.firmware.map(fw => `<option value="${fw.filename}">${fw.filename}</option>`).join('');
+    }
+    document.getElementById('flashForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        document.getElementById('flashStatus').innerHTML = 'Flashing...';
+        const formData = new FormData(e.target);
+        const res = await fetch('/flash', { method: 'POST', body: formData });
+        const data = await res.json();
+        if (data.success) {
+            document.getElementById('flashStatus').innerHTML = '<span class="text-success">Flashing successful!</span>';
+            if (data.qr_url) {
+                document.getElementById('flashStatus').innerHTML += `<br><img src="${data.qr_url}" alt="QR Code" />`;
+            }
+        } else {
+            document.getElementById('flashStatus').innerHTML = `<span class="text-danger">Error: ${data.error}</span>`;
+        }
+    });
+    document.getElementById('refreshComPorts').onclick = loadComPorts;
+    window.onload = () => {
+        loadComPorts();
+        loadFirmwareList();
+    };
+</script>
+</body>
+</html> 

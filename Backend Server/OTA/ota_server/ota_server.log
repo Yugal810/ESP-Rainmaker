@@ -1,0 +1,20 @@
+2025-05-21 22:29:53,654 - __main__ - INFO - Starting OTA server...
+2025-05-21 22:30:23,161 - __main__ - INFO - Starting OTA server...
+2025-05-21 22:30:23,196 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.208.144:8081
+2025-05-21 22:30:23,196 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 22:30:23,196 - werkzeug - INFO -  * Restarting with stat
+2025-05-21 22:30:23,297 - __main__ - INFO - Starting OTA server...
+2025-05-21 22:30:23,315 - werkzeug - WARNING -  * Debugger is active!
+2025-05-21 22:30:23,323 - werkzeug - INFO -  * Debugger PIN: 629-036-895
+2025-05-21 22:30:36,243 - werkzeug - INFO - 192.168.208.144 - - [21/May/2025 22:30:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-21 22:30:36,295 - werkzeug - INFO - 192.168.208.144 - - [21/May/2025 22:30:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 22:31:33,063 - werkzeug - INFO - 192.168.208.144 - - [21/May/2025 22:31:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-21 22:31:48,921 - werkzeug - INFO - 192.168.208.144 - - [21/May/2025 22:31:48] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-21 22:32:10,279 - __main__ - INFO - Version check requested
+2025-05-21 22:32:10,280 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 22:32:10] "GET /version HTTP/1.1" 200 -
+2025-05-21 22:32:24,532 - __main__ - INFO - Firmware download requested: test_firmware.bin
+2025-05-21 22:32:24,534 - werkzeug - INFO - 127.0.0.1 - - [21/May/2025 22:32:24] "GET /firmware HTTP/1.1" 200 -
+2025-05-21 22:32:27,150 - werkzeug - INFO - 192.168.208.144 - - [21/May/2025 22:32:27] "[33mGET / HTTP/1.1[0m" 404 -

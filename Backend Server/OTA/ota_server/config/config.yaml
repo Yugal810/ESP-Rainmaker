@@ -1,0 +1,37 @@
+server:
+  host: '0.0.0.0'
+  port: 8081
+  debug: false
+  ssl_enabled: false
+  ssl_cert: 'cert.pem'
+  ssl_key: 'key.pem'
+
+firmware:
+  folder: 'firmware'
+  allowed_extensions: ['bin']
+  max_size_mb: 10
+  version_file: 'version.json'
+  backup_enabled: true
+  backup_folder: 'firmware/backup'
+
+security:
+  api_key_required: true
+  allowed_ips: []
+  rate_limit:
+    enabled: true
+    requests_per_minute: 60
+
+logging:
+  level: 'INFO'
+  file: 'ota_server.log'
+  max_size_mb: 10
+  backup_count: 5
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+notifications:
+  email_enabled: false
+  smtp_server: ''
+  smtp_port: 587
+  smtp_username: ''
+  smtp_password: ''
+  notification_recipients: [] 
